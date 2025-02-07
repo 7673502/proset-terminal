@@ -2,11 +2,11 @@
 
 Working on a Linux machine without a GUI and drooping down wearily because you can't play *ProSet*? Well, droop no more! *ProSet* can now be played from the command line!
 
-Getting *ProSet* up and running in your terminal is easy! First, build the *ProSet* executable using your compiler of choice or follow the build instructions at [build/README.md](build/README.md) to build using the provided CMakeLists.txt file.
+Getting *ProSet* up and running in your terminal is easy! First, build the *ProSet* executable from `/src/main.c` using your compiler of choice or follow the build instructions at [build/README.md](build/README.md) to build using the provided CMakeLists.txt file.
 
 Once built, you can run *ProSet* using
 ```bash
-./*ProSet* [options]
+./ProSet [options]
 ```
 
 Below are some of the optional arguments that can be provided to the *ProSet* executable.
@@ -35,7 +35,7 @@ Now note that in a collection of $7$ cards, we have $2^7$ possible subsets. Beca
 
 An alternative proof is to view the deck of cards as elements of the vector space $\mathbb{F}_2^6$. Then, a "set" corresponds to a collection of elements that sum to $0$. Because every collection of $7$ nonzero elements in $\mathbb{F}_2^6$ is guaranteed to be linearly dependent, there must be some nontrivial relation between the $7$ elements so that some linear combination of them sums to $0$.
 
-Both of these proofs can be applied more generally to show that every collection of $n+1$ cards with $n$ uniquely colored dots is guaranteed to have a set. These more general proofs are left as an exercise to the reader.
+Both of these proofs can be applied more generally to show that every collection of $n+1$ cards with $n$ uniquely colored dots is guaranteed to have a set.
 
 ## Online Implementations
 
