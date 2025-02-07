@@ -109,7 +109,7 @@ int main(int argc, char* argv[]) {
                        "This program allows you to play ProSet on the command line!\n\n"
                        "Optional Arguments:\n"
                        "%-15s shows help message\n"
-                       "%-15s specify number of dots on each card (between 2 and 8 inclusive)\n", 
+                       "%-15s specify number of uniquely colored dots (between 2 and 8 inclusive)\n", 
                        "-h", "-d NUM_DOTS");
                 exit(0);
                 break;

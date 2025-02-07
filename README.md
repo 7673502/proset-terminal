@@ -13,9 +13,9 @@ The `proset` executable comes with some built in options:
 ```
 Optional Arguments:
 -h              shows help message
--d NUM_DOTS     specify number of dots on each card (between 2 and 8 inclusive)
+-d NUM_DOTS     specify number of uniquely colored dots (between 2 and 8 inclusive)
 ```
-If the `-d` flag is not specified, then the game will default to 6 dots per card akin to the standard game.
+If the `-d` flag is not specified, then the game will default to 6 uniquely colored dots akin to the standard game.
 
 Happy setting!
 
