@@ -101,6 +101,9 @@ int main(int argc, char* argv[]) {
     char *optarg_endptr = NULL;
     long num;
 
+    // disable opterr error messages, will print our own
+    opterr = 0;
+
     // parse command line arguments
     while ((opt = getopt(argc, argv, "d:h")) != -1) {
         switch(opt) {
