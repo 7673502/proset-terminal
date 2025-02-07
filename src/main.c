@@ -211,6 +211,11 @@ int main(int argc, char* argv[]) {
             printf("Your current score is %s%d%s.\n", TERMINAL, score, DEFAULT);
             free(line);
             continue;
+
+        } else if (characters == 6 && strncmp("table", line, 5) == 0) {
+            print_table(table, num_table);
+            free(line);
+            continue;
         }
         
         // parse the card numbers 
@@ -264,7 +269,7 @@ int main(int argc, char* argv[]) {
 
             switch (randint(4)) {
                 case 0:
-                    printf("%sNice job!%s ", RED, DEFAULT);
+                    printf("%sNice job!%s ", YELLOW, DEFAULT);
                     break;
                 case 1:
                     printf("%sYee haw!%s ", GREEN, DEFAULT);
