@@ -39,6 +39,7 @@ Both of these proofs can be applied more generally to show that every collection
 There are various implementations of ProSet available online including:
 - A [Scratch implementation](https://scratch.mit.edu/projects/992397812/)
 - A [JavaScript implementation](https://www.prosetgame.com/)
+
 You can find various other web implementations and [physical versions](https://www.thegamecrafter.com/games/proset) of ProSet at its [Wikipedia page](https://en.wikipedia.org/wiki/Projective_Set_(game)).
 
 ## License
