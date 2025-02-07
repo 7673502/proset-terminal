@@ -259,7 +259,7 @@ int main(int argc, char* argv[]) {
         if (!invalid_input && sum > 0) { // valid input but cards do not form a set
             printf("The cards you selected are not a set. Please try again.\n");
 
-        } else { // cards form a set
+        } else if (!invalid_input) { // cards form a set
             score += selected_cards_size;
 
             switch (randint(4)) {
