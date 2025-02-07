@@ -36,9 +36,10 @@ An alternative proof is to view the deck of cards as elements of $\mathbb{F}_2^6
 Both of these proofs can be applied more generally to show that every collection of $n+1$ cards with $n$ uniquely colored dots is guaranteed to have a set. **These more general proofs are left as an exercise to the reader**.
 
 ## Online Implementations
-There are various implementations of ProSet available online including:
+There are many implementations of ProSet available online including:
 - A [Scratch implementation](https://scratch.mit.edu/projects/992397812/)
 - A [JavaScript implementation](https://www.prosetgame.com/)
+- Another [JavaScript implementation](https://www.mathcamp.org/2015/proset/)
 
 You can find various other web implementations and [physical versions](https://www.thegamecrafter.com/games/proset) of ProSet at its [Wikipedia page](https://en.wikipedia.org/wiki/Projective_Set_(game)).
 
