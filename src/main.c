@@ -132,7 +132,7 @@ int main(int argc, char* argv[]) {
                 if (optopt == 'd') {
                     print_d_usage();
                 } else {
-                    fprintf(stderr, "An invalid argument was specified.");
+                    fprintf(stderr, "An invalid argument was specified.\n");
                     exit(1);
                 }
                 break;
