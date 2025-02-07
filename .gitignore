@@ -17,3 +17,5 @@ CMakeUserPresets.json
 
 # MacOS
 .DS_Store
+
+/build/bin/
