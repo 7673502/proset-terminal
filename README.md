@@ -33,7 +33,7 @@ Consider an arbitrary collection of cards. There is always some card that we can
 
 Now note that in a collection of $7$ cards, we have $2^7$ possible subsets. Because there are $2^6$ possible complementary cards for each subset, there must be at least two subsets with the same complementary card by the pigeonhole principle. As a result, every group of 7 cards is guaranteed to have a set.
 
-An alternative proof is to view the deck of cards as elements of the vector space $\mathbb{F}_2^6$. Then, a "set" corresponds to a collection of elements that sum to $0$. Because every collection of $7$ nonzero elements in $\mathbb{F}_2^6$ is guaranteed to be linearly dependent, there must be some nontrivial relation between the $7$ elements so that some linear combination of them sums to $0$.
+An alternative proof is to view the deck of cards as elements of the vector space $\mathbb{F}_2^6$. Then, a "set" corresponds to a collection of elements that sum to $0$. Because every collection of $7$ nonzero elements in $\mathbb{F}_2^6$ is guaranteed to be linearly dependent, there must be some nontrivial relation between the $7$ elements so that a linear combination of them sums to $0$.
 
 Both of these proofs can be applied more generally to show that every collection of $n+1$ cards with $n$ uniquely colored dots is guaranteed to have a set.
 
